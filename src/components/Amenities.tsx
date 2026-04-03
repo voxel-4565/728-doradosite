@@ -12,12 +12,16 @@ export default function Amenities() {
               <h3 className="font-heading font-medium text-[#6a5c51] text-2xl lg:text-[36.3px] tracking-[-0.2px] leading-[1.3] mb-6">
                 Lorem Ipsum
               </h3>
-              <div className="mb-2">
+              <div className="mb-2 inline-flex items-center gap-2">
                 <span className="font-script text-[#515151] text-3xl lg:text-[40px] capitalize leading-none">
                   The Amenities
                 </span>
+                <svg width="100" height="6" viewBox="0 0 100 6" className="text-[#a09080]">
+                  <line x1="0" y1="3" x2="90" y2="3" stroke="currentColor" strokeWidth="1" />
+                  <path d="M88,3 L95,0.5 L95,5.5 Z" fill="currentColor" />
+                </svg>
               </div>
-              <div className="w-[333px] h-[1px] bg-[#a09080]/40 mt-4" />
+              <div className="w-[333px] h-[1px] bg-[#a09080]/40 mt-2" />
             </div>
           </ScrollReveal>
 

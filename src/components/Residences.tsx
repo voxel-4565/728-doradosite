@@ -23,10 +23,14 @@ export default function Residences() {
                 tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
                 egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.
               </p>
-              <div className="mt-4 mb-2">
+              <div className="mt-4 mb-2 inline-flex items-center gap-2">
                 <span className="font-script text-[#515151] text-3xl lg:text-[40px] capitalize leading-none">
                   the residences
                 </span>
+                <svg width="100" height="6" viewBox="0 0 100 6" className="text-[#a09080]">
+                  <line x1="0" y1="3" x2="90" y2="3" stroke="currentColor" strokeWidth="1" />
+                  <path d="M88,3 L95,0.5 L95,5.5 Z" fill="currentColor" />
+                </svg>
               </div>
               <div className="w-[333px] h-[1px] bg-[#a09080]/40 mt-2" />
             </div>
