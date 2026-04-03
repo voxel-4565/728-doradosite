@@ -63,8 +63,8 @@ export default function ContactForm() {
             </select>
           </div>
           <div className="flex justify-center">
-            <button className="bg-[#f9f6f2] border border-black text-black text-xl lg:text-[32px] font-normal rounded-full px-16 py-5 hover:bg-white transition-colors">
-              Register
+            <button className="bg-[#f9f6f2] border border-black text-black text-xl lg:text-[32px] font-normal rounded-[34px] px-20 py-6 lg:w-[369px] lg:h-[84px] hover:bg-white transition-colors">
+              Inquire
             </button>
           </div>
         </ScrollReveal>
