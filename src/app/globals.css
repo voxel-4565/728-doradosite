@@ -21,6 +21,11 @@ body {
   color: #4e4034;
 }
 
+/* Prevent flash of unstyled content */
+img[loading="lazy"] {
+  background: #f0ebe5;
+}
+
 .font-script {
   font-family: var(--font-platinum), cursive;
 }
