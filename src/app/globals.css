@@ -32,3 +32,29 @@ body {
 .font-heading {
   font-family: var(--font-dm-sans), sans-serif;
 }
+
+/* Scroll reveal animations */
+.scroll-reveal {
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: opacity, transform;
+}
+
+.scroll-reveal-fadeInUp {
+  opacity: 0;
+  transform: translate3d(0, 60px, 0);
+}
+
+.scroll-reveal-fadeIn {
+  opacity: 0;
+}
+
+.scroll-reveal-moveUp {
+  opacity: 0;
+  transform: translateY(25px);
+}
+
+.scroll-reveal.scroll-revealed {
+  opacity: 1;
+  transform: none;
+}

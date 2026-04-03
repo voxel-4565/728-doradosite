@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ScrollReveal from "./ScrollReveal";
 
 export default function ContactForm() {
   return (
@@ -12,6 +13,7 @@ export default function ContactForm() {
       />
       <div className="absolute inset-0 bg-[#1a2a1a]/70" />
       <div className="relative z-10 max-w-[926px] mx-auto px-6">
+        <ScrollReveal animation="fadeInUp">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-6 gap-y-4 mb-4">
           <input
             type="text"
@@ -65,6 +67,7 @@ export default function ContactForm() {
             Register
           </button>
         </div>
+        </ScrollReveal>
       </div>
     </section>
   );
