@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Sans, Inter } from "next/font/google";
-import localFont from "next/font/local";
+import { DM_Sans, Inter, Mrs_Saint_Delafield } from "next/font/google";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -15,9 +14,10 @@ const inter = Inter({
   weight: ["300", "400", "500"],
 });
 
-const platinum = localFont({
-  src: "./fonts/GreatVibes-Regular.ttf",
+const platinum = Mrs_Saint_Delafield({
   variable: "--font-platinum",
+  subsets: ["latin"],
+  weight: "400",
   display: "swap",
 });
 
