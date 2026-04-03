@@ -115,7 +115,7 @@ export default function Header() {
               alt="Dorado Grove"
               width={258}
               height={132}
-              className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto brightness-0 opacity-70"
+              className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto invert opacity-70"
             />
           </div>
 
