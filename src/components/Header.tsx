@@ -111,11 +111,11 @@ export default function Header() {
           {/* Center - Logo */}
           <div className="absolute left-1/2 -translate-x-1/2">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-dark.svg"
               alt="Dorado Grove"
-              width={258}
-              height={132}
-              className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto invert opacity-70"
+              width={224}
+              height={38}
+              className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto opacity-70"
             />
           </div>
 
@@ -172,11 +172,11 @@ export default function Header() {
             {/* Logo */}
             <div className="mb-10">
               <Image
-                src="/images/logo.png"
+                src="/images/logo-dark.svg"
                 alt="Dorado Grove"
-                width={258}
-                height={132}
-                className="w-[120px] h-auto brightness-0 opacity-60"
+                width={224}
+                height={38}
+                className="w-[120px] h-auto opacity-60"
               />
             </div>
 
